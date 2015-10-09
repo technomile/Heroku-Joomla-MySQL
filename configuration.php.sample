@@ -16,9 +16,9 @@ define('DB_PASSWORD', $db["pass"]);
 define('DB_HOST', $db["host"]);
 
 class JConfig {
-	public $offline = '1';
+	public $offline = '0';
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
-	public $display_offline_message = '1';
+	public $display_offline_message = '0';
 	public $offline_image = '';
 	public $sitename = 'Heroku Joomla MySQL';
 	public $editor = 'tinymce';
