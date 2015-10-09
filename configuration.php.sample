@@ -27,12 +27,12 @@ class JConfig {
 	public $access = '1';
 	public $debug = '0';
 	public $debug_lang = '0';
-	public $dbtype = 'pdomysql';
+	public $dbtype = 'mysqli';
 	public $host = DB_HOST;
 	public $user = DB_USER;
 	public $password = DB_PASSWORD;
 	public $db = DB_NAME;
-	public $dbprefix = 'mja7b_';
+	public $dbprefix = 'tm_';
 	public $live_site = '';
 	public $secret = '5zuJyWQdFBDGJ6KU';
 	public $gzip = '0';
